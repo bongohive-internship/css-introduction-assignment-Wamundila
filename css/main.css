@@ -10,12 +10,12 @@
 
 body {
 	font-family:"Roboto", sans-serif;
-	background-color: blue;
+	/*background-color: blue;*/
 }
 
 /*--------header styles----------------------*/
 .header {
-	height: 95vh;
+	height: 93vh;
 	background-image: url(../images/code-coder-codes-2194062.jpg);
 	background-size: cover;
 }	
@@ -39,4 +39,38 @@ body {
 #hub {
 	color: yellow;
 }
-/*--------NavBar styles----------------------*/
+
+/*--------NavBar and Logo styles----------------------*/
+
+.navBar {
+	position: sticky;
+  	top: 0;
+	margin-top: 5px;
+	height: 7vh;
+	background-color: yellow;
+}
+
+.navBar a {
+	
+	width: 120px;
+	height: 7vh;
+	font-size: 20px;
+	background-color: yellow;
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+	float: right;
+	text-align: center;
+}
+.navBar a:hover {
+	background-color: black;
+	color: white;
+}
+#home {
+	background-image: url(../images/logo-ph.png);
+	background-size: cover;
+	width: 60px;
+	height: 7vh;
+	float: left;
+	border: solid yellow 1px;
+}
