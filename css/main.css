@@ -12,3 +12,31 @@ body {
 	font-family:"Roboto", sans-serif;
 	background-color: blue;
 }
+
+/*--------header styles----------------------*/
+.header {
+	height: 95vh;
+	background-image: url(../images/code-coder-codes-2194062.jpg);
+	background-size: cover;
+}	
+.header h1 {
+	padding-top: 30vh;
+	font-size: 90px;
+	font-weight: 800;
+	color: white;
+	text-align: center;
+}
+.header h4 {
+	padding-bottom: 50vh;
+	font-size: 20px;
+	font-weight: 100;
+	color: white;
+	text-align: center;
+}
+#pic {
+	color: white;
+}
+#hub {
+	color: yellow;
+}
+/*--------NavBar styles----------------------*/
