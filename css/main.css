@@ -144,3 +144,10 @@ body {
   text-align: center; 
   background: #999; 
 }
+
+.shado{
+	 box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.5);
+	 width: 95%;
+	 height: 80vh;
+	 background-image: url(../images/logo-ph.png);
+	 background-size: cover;
