@@ -123,3 +123,15 @@ body {
 	 	height: 58.7vw;
 	}	
 }
+/*-------Another hover effect------------*/
+
+
+#aboutImage {
+	width: 30%;
+	opacity: 1;
+}
+
+.hova:hover #aboutImage {
+	opacity: 0.2;
+}
+
