@@ -16,12 +16,12 @@ body {
 /*--------header styles----------------------*/
 .header {
 	height: 93vh;
-	background-image: url(../images/code-coder-codes-2194062.jpg);
+	background-image: url(../images/hero2.jpg);
 	background-size: cover;
 }	
 .header h1 {
 	padding-top: 30vh;
-	font-size: 90px;
+	font-size: 100px;
 	font-weight: 800;
 	color: white;
 	text-align: center;
@@ -29,8 +29,8 @@ body {
 .header h4 {
 	padding-bottom: 50vh;
 	font-size: 20px;
-	font-weight: 100;
-	color: white;
+	font-weight: 400;
+	color: yellow;
 	text-align: center;
 }
 #pic {
@@ -75,7 +75,7 @@ body {
 	border: solid yellow 1px;
 }
 
-/*--------NavBar and Logo styles----------------------*/
+/*--------Cards----------------------*/
 
 .column {
 	float: left; 
@@ -90,15 +90,40 @@ body {
 	content: "";	/*add nothing after row*/
 	clear: both; clear /*floats on both sides*/
 }
-.card{
+
+.cardA{
 	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 	 width: 95%;
 	 height: 15vw;
-	 background-image: url(../images/logo-ph.png);
+	 background-image: url(../images/animal.jpg);
 	 background-size: cover;
 
 }
-.card h1 {
+.cardP{
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	 width: 95%;
+	 height: 15vw;
+	 background-image: url(../images/people.jpg);
+	 background-size: cover;
+
+}
+.cardN{
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	 width: 95%;
+	 height: 15vw;
+	 background-image: url(../images/nature.jpg);
+	 background-size: cover;
+
+}
+.cardO{
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	 width: 95%;
+	 height: 15vw;
+	 background-image: url(../images/others.jpg);
+	 background-size: cover;
+
+}
+.cardText {
 	color: white;
 	font-size: 30px;
 	font-weight: 600;
@@ -118,12 +143,25 @@ body {
 
 	}
 
-	.card {
+	.cardA {
+		width: 95%;
+	 	height: 58.7vw;
+	}
+	.cardP {
+		width: 95%;
+	 	height: 58.7vw;
+	}
+	.cardN {
+		width: 95%;
+	 	height: 58.7vw;
+	}
+	.cardO {
 		width: 95%;
 	 	height: 58.7vw;
 	}	
 }
-/*-------Another hover effect------------*/
+
+/*-------About Me------------*/
 
 
 #aboutImage {
@@ -131,10 +169,10 @@ body {
 	opacity: 1;
 }
 
-/*.hova:hover #aboutImage {
-	opacity: 0.2;
+
+.hova{
+	background: yellow;
 }
-*/
 .hova a:hover {
 	opacity: 0.2;
 }
@@ -149,5 +187,6 @@ body {
 	 box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.5);
 	 width: 95%;
 	 height: 80vh;
-	 background-image: url(../images/logo-ph.png);
-	 background-size: cover;
+	 background-image: url(../images/me.jpg);
+	 background-size: contain;
+}
